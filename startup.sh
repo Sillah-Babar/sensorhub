@@ -1,5 +1,5 @@
 #!/bin/bash
-pip install -r requirements.txt
+pip install .
 python -m flask --app=sensorhub init-db
 python -m flask --app=sensorhub testgen
 python -m flask --app=sensorhub masterkey
